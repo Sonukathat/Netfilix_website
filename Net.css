@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: bab;
+    font-family: "Lato", sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */      
+}
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url('Screen-Shot-2020-05-04-at-1.41.10-PM.png'); background-size: cover; background-position: center;
+}
+
+.head{
+    /* border: 1px solid red; */
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.netflix h2{
+    margin-top: 0.6rem;
+    margin-left: 6rem;
+    font-size: 4rem;
+    color: #E50914;
+    font-weight: 700;
+}
+.drop1{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: rgb(78, 74, 74);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+.signin{
+    margin-right: 6rem;
+    height: 2rem;
+    width: 5rem;
+    background-color:  #E50914;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+
+.heading1{
+    text-align: center;
+    margin-top: 13rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+.heading2{
+    margin-top: -1rem;
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.p1{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.p2{
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+.inp1{
+    margin-top: 1rem;
+    margin-left: 29rem;
+    height: 3rem;
+    width: 23rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(69, 59, 59);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid gray;
+}
+.btn1{
+    
+    height: 3.3rem;
+    width: 14rem;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;    
+}
+
+.heading3{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    color: white;
+}
+.drop2{
+    color: white;
+    margin-left: 15rem;
+    height: 2.2rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: black;
+}
+.drop3{
+    color: white;
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 0.2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+}
+
+.images{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    justify-content: space-between;
+}
+.img1{
+    height: 14rem;
+    width: 11rem;
+    border-radius: 0.5rem;
+}
+
+.heading4{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    color: white;
+}
+
+.maindiv2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 12rem 0 12rem;
+}
+.heading5{
+    margin-bottom: 2rem;
+    color: white;
+}
+.desp{
+    color: gray;
+}
+.show{
+    color: white;
+}
+.maindiv3{
+    /* border: 1px solid red; */
+    height: 15rem;
+    width: 16rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    background-color: #162048;
+}
+
+.heading6{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    color: white;
+}
+
+.footdiv1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+}
+.footdiv2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 46, 46);
+    /* border: 1px solid red; */
+}
+.footp1{
+    font-size: 1.5rem;
+    padding: 2rem 0 2rem 1rem;
+    color: white;
+}
+i{
+    font-size: 1.8rem;
+    padding: 2rem 2rem 2rem 0;
+    color: white;
+}
+
+
+.footp2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+.footinp{
+    /* height: 2.5rem; */
+    /* width: 40%; */
+    height: 3rem;
+    width: 35rem;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    background-color: black;
+    border: 1px solid gray;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+}
+.footbtn{
+    height: 3.2rem;
+    width: 15rem;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: #E50914;
+}
+.footp3{
+    margin-top: 4rem;
+    /* text-align: center; */
+    margin-left: 15rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.footdiv3{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    margin: 2rem 10rem 0 10rem;
+}
+.footdiv4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footdiv4 a{
+    color: rgb(177, 163, 163);
+}
+#option3{
+    height: 2rem;
+    width: 8rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+    color: white;
+    background-color: black;
+}
+.footp4{
+    color: rgb(177, 163, 163);
+    margin-left: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
